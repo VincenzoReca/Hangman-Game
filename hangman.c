@@ -38,7 +38,7 @@ int main() {
             printHangman(mistakes, wordToGuess, &counterMistakes, bannedWord); 
             printf("You Win!!! ");
         } else {
-            printf("You lose! ");
+            printf("You lose!\t the answer was: %s\n", wordToGuess);
         }
 
         printf("New Game? (1 = Yes, 0 = No)\n");            //rematch
